@@ -1,0 +1,81 @@
+{
+	"roles": [
+		{
+			"id": "designer",
+			"title": "Disigner"
+		},
+		{
+			"id": "developer",
+			"title": "Developer"
+		},
+		{
+			"id": "qa",
+			"title": "QA"
+		},
+		{
+			"id": "devops",
+			"title": "DevOps"
+		},
+		{
+			"id": "copywriter",
+			"title": "Copywriter"
+		}
+	],
+	"employees": [
+		{
+			"id": 1,
+			"name": "Michael Pemulius",
+			"role": "designer"
+		},
+		{
+			"id": 2,
+			"name": "Don Gately",
+			"role": "developer"
+		},
+		{
+			"id": 3,
+			"name": "Joelle Van Dyne",
+			"role": "qa"
+		}
+	],
+	"projects": [
+		{
+			"id":1,
+			"description": "Design and build a custom website",
+			"title": "Website Project",
+			"status": "active",
+			"members": [
+				{
+				  "employeeId":1,
+				  "roleId": "designer"
+				},
+				{
+					"employeeId":2,
+					"roleId": "developer"
+				}
+			]
+		},
+		{
+			"id":2,
+			"description": "Design and build a web app",
+			"title": "App Project",
+			"status": "active",
+			"members": []
+		},
+		{
+			"id":3,
+			"description": "Create a poster design",
+			"title": "Poster Design",
+			"status": "planned",
+			"members": []
+		},
+		{
+			"id":4,
+			"description": "Design and build a mobile app",
+			"title": "Mobile App",
+			"status": "completed",
+			"members": []
+		}
+	]
+}	
+	
